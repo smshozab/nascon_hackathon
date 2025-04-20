@@ -1,0 +1,28 @@
+{
+  "name": "testt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node src/test/github.test.ts",
+    "dev": "mastra dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@ai-sdk/groq": "^1.2.8",
+    "@mastra/core": "^0.8.3",
+    "@octokit/rest": "^21.1.1",
+    "dotenv": "^16.5.0",
+    "mastra": "^0.4.9",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
